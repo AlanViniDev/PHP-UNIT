@@ -21,7 +21,9 @@ class bolha_teste extends TestCase{
             /* Testa a ordem crescente */
 
             $this->vetor = array(
+                
                 0,1,2,3,4,5,6
+                
             );
 
             for($x = 0; $x < $this->TAM; $x++){
@@ -34,7 +36,9 @@ class bolha_teste extends TestCase{
             /* Testa a ordem decrescente */
 
             $this->vetor2 = array(
+                
                 6,5,4,3,2,1,0
+                
             ); 
 
         
